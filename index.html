@@ -1,0 +1,1813 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="icon" href="favicon.ico">
+		<title>KPPC Hostel</title>
+		<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- Custom styles for this template -->
+		<link href="css/blog.css" rel="stylesheet">
+		<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+		<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+		<script src="js/ie-emulation-modes-warning.js"></script>
+		<link rel="stylesheet" href="css/responsiveslides.css">
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	</head>
+    <style type="text/css">
+        #map-canvas {
+            display: block;
+            width: 100%;
+            height: 300px;
+        }
+    
+        </style>
+    <script>
+        function initialize() {
+            var mapCanvas = document.getElementById('map-canvas');
+            var mapOptions = {
+                center: new google.maps.LatLng(12.950893, 77.567806),
+                zoom: 8,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+            // var marker = new google.maps.Marker({
+            // position: mapCanvas,
+            // map: map
+            // });
+        }
+    google.maps.event.addDomListener(window, 'load', initialize);
+    
+        </script>
+	<body>
+		<div class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+						<img alt="Responsive image" class="img-responsive pull-left" src="img/kp_burned.png">
+					</div>
+					<div class="col-sm-8 text-center">
+						<br />
+						<h2 style="color: snow" class="heading">Diwan Sir K P Puttannachetty Veerashaiva Educational Charities</h2>
+						<small style="color: rgb(188, 188, 188);">#32/9-10, Bull temple road, Bengaluru-04</small>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+					</div>
+					<div class="col-sm-2">
+						<img alt="Responsive image" class="img-responsive pull-right hidden-xs" src="img/ssa.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container main-body">
+			<div class="row">
+				<div class="col-sm-2" style="padding-left: 0px;">
+					<br />
+                    <div class="list-group sidebar navbar-collapse collapse" id="navbar">
+                        <a href="#" onclick="pageNavigation(1)" class="list-group-item active"> Home </a>
+						<a href="#" onclick="pageNavigation(2)" class="list-group-item">History</a>
+						<a href="#" onclick="pageNavigation(3)" class="list-group-item">Hostel Management</a>
+						<a href="#" onclick="pageNavigation(4)" class="list-group-item">SSA</a>
+						<a href="#" onclick="pageNavigation(5)" class="list-group-item">Rules and Regulations</a>
+						<a href="#" onclick="pageNavigation(6)" class="list-group-item">List of Students</a>
+						<a href="#" onclick="pageNavigation(7)" class="list-group-item">Contact Us</a>
+					</div>
+				</div><!-- /.blog-sidebar -->
+				<div class="col-sm-10">
+					<br />
+					<div class="col-sm-8 home-slide">
+						<div id="wrapper">
+							<!-- Slideshow 1 -->
+							<ul class="rslides" id="slider1">
+								<li><img src="img/banner/1.jpg" alt="">
+								</li>
+								<li><img src="img/banner/2.jpg" alt="">
+								</li>
+								<li><img src="img/banner/3.jpg" alt="">
+								</li>
+                                <li><img src="img/banner/4.jpg" alt="">
+                                    </li>
+                                <li><img src="img/banner/5.jpg" alt="">
+                                    </li>
+                                <li><img src="img/banner/6.jpg" alt="">
+                                    </li>
+                                <li><img src="img/banner/7.jpg" alt="">
+                                    </li>
+                                <li><img src="img/banner/8.jpg" alt="">
+                                    </li>
+                                <li><img src="img/banner/9.jpg" alt="">
+                                    </li>
+                                <li><img src="img/banner/10.jpg" alt="">
+                                    </li>
+							</ul>
+						</div>
+						<!-- <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+						<div class="carousel-inner" role="listbox">
+						<div class="item active">
+						<img src="img/banner/1.jpg" class="img-responsive" alt="...">
+						<div class="carousel-caption">
+
+						</div>
+						</div>
+						<div class="item">
+						<img src="img/banner/2.jpg"  class="img-responsive"  alt="...">
+						<div class="carousel-caption">
+
+						</div>
+						</div>
+						<div class="item">
+						<img src="img/banner/3.jpg"  class="img-responsive"  alt="...">
+						<div class="carousel-caption">
+
+						</div>
+						</div>
+						<div class="item">
+						<img src="img/banner/4.jpg"  class="img-responsive"  alt="...">
+						<div class="carousel-caption">
+
+						</div>
+						</div>
+						</div>
+						<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
+						<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+						</div> -->
+					</div><!-- /.blog-main -->
+					<div class="col-sm-4  blog-sidebar v-side">
+						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner" role="listbox">
+								<div class="item active">
+									<img src="img/vachana/1.jpg" class="img-responsive" alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/2.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/3.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/4.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/5.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/6.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/7.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/8.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/9.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/10.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/11.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/12.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/13.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/14.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/15.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/16.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/17.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/18.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/19.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/20.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/21.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/22.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/23.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/24.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/25.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/26.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/27.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/28.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/29.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/30.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/31.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/vachana/32.jpg"  class="img-responsive"  alt="...">
+									<div class="carousel-caption">
+
+									</div>
+								</div>
+							</div>
+							<!-- Controls -->
+						</div>
+						<br />
+						<br />
+						<br />
+
+						<div class="panel panel-info">
+							<div class="panel-heading">
+								<h3 class="panel-title" id="panel-title">No. of Visitors<a href="#panel-title" class="anchorjs-link"><span class="anchorjs-icon"></span></a></h3>
+							</div>
+							<div class="panel-body">
+								<!--Panel content --> 108
+							</div>
+						</div>
+					</div><!-- /.blog-sidebar -->
+                    
+                    
+					<div class="blog-post home" style="clear: both">
+						<h2 class="blog-post-title">KPPC Hostel SSA</h2>
+                      
+                      
+					</div>
+                    
+                    
+					<div class="management" style="display:none">
+						<div class="panel panel-info">
+							<div class="panel-heading">
+								<h3 class="panel-title"><strong>Executive Commettee</strong></h3>
+							</div>
+							<div class="panel-body">
+								<div class="table-responsive">
+									<table ng-init="reverse = true" class="table table-bordered table-hover">
+										<!-- <thead></thead>
+										<caption class="text-left text-info">
+										<strong>Executive Commettee</strong>
+										</caption> -->
+										<tbody>
+											<tr class="active">
+												<th>Si. Number</th>
+												<th>Name</th>
+												<th>Designation</th>
+												<th>Contact No.</th>
+
+											</tr>
+
+										</tbody>
+										<tbody>
+											<tr>
+												<td>1</td>
+												<td>Mr. P S Vishwanath</td>
+												<td>President</td>
+												<td>(080) 26678665</td>
+
+											</tr>
+											<tr>
+												<td>2</td>
+												<td>Mrs. Tripura Vishwanath</td>
+												<td>Secretary</td>
+												<td>(080) 26678665</td>
+
+											</tr>
+											<tr>
+												<td>3</td>
+												<td>Mr. P V Sumanth</td>
+												<td>Executive Member</td>
+												<td>+91 9741351584</td>
+
+											</tr>
+                                            <tr>
+                                                <td>4</td>
+                                                <td>Mr. D R Jairaj</td>
+                                                <td>Executive Member</td>
+                                                <td>-</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>5</td>
+                                                <td>Mr. B R Rangaraju</td>
+                                                <td>Executive Member</td>
+                                                <td>-</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>6</td>
+                                                <td>Mrs. Banashankari</td>
+                                                <td>Executive Member</td>
+                                                <td>-</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>7</td>
+                                                <td>Mr. P V Hementh</td>
+                                                <td>Executive Member</td>
+                                                <td>-</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>8</td>
+                                                <td>Dr. L Kalavati</td>
+                                                <td>Executive Member</td>
+                                                <td>-</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>9</td>
+                                                <td>Mr. Santosh</td>
+                                                <td>Executive Member</td>
+                                                <td>-</td>
+                                                
+                                            </tr>
+											<tr>
+												<td>10</td>
+												<td>Mr. Nagaraj</td>
+												<td>Warden</td>
+												<td>+91 9880036098</td>
+
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="ssa" style="display:none">
+						<div class="panel panel-info">
+							<div class="panel-heading">
+								<h3 class="panel-title"><strong>Executive Commettee</strong></h3>
+							</div>
+							<div class="panel-body">
+								<div class="table-responsive">
+									<table ng-init="reverse = true" class="table table-bordered table-hover">
+										<!-- <thead></thead>
+										<caption class="text-left text-info">
+										<strong>Executive Commettee</strong>
+										</caption> -->
+										<tbody>
+											<tr class="active">
+												<th>Si. Number</th>
+												<th>Name</th>
+												<th>Designation</th>
+												<th>Contact No.</th>
+
+											</tr>
+
+										</tbody>
+										<tbody>
+											<tr>
+												<td>1</td>
+												<td>Mr. Shivakumar G</td>
+												<td>President</td>
+												<td>+91 9972733009</td>
+
+											</tr>
+
+											<tr>
+												<td>2</td>
+												<td>Mr. Jaikumar Patil</td>
+												<td>Secretary</td>
+												<td>+91 9036195316</td>
+
+											</tr>
+											<tr>
+												<td>3</td>
+												<td>Mr. P V Sumanth</td>
+												<td>Honorable Advisor</td>
+												<td>+91 9741351584</td>
+
+											</tr>
+											<tr>
+												<td>4</td>
+												<td>Mr. Shrikanth Tirki</td>
+												<td>Tresurer</td>
+												<td>+91 9611989795</td>
+
+											</tr>
+											<tr>
+												<td>5</td>
+												<td>Mr. Vinodkumar</td>
+												<td>Executive Member</td>
+												<td>+91 9663082181</td>
+
+											</tr>
+											<tr>
+												<td>6</td>
+												<td>Mr. Shrikanth Hallikheda</td>
+												<td>Executive Member</td>
+												<td>+91 9916843123</td>
+
+											</tr>
+											<tr>
+												<td>7</td>
+												<td>Mr. Malleshgouda Patil</td>
+												<td>Executive Member</td>
+												<td>+91 9916415150</td>
+
+											</tr>
+											<tr>
+												<td>8</td>
+												<td>Mr. Shreeshail S Ganachari</td>
+												<td>Executive Member</td>
+												<td>+91 8095958362</td>
+
+											</tr>
+											<tr>
+												<td>9</td>
+												<td>Mr. Supreeth J</td>
+												<td>Executive Member</td>
+												<td>+91 9901056901</td>
+
+											</tr>
+											<tr>
+												<td>10</td>
+												<td>Mr. Shivanth</td>
+												<td>Executive Member</td>
+												<td>+91 9164532020</td>
+
+											</tr>
+                                            <tr>
+                                                <td>11</td>
+                                                <td>Mr. Umesh Daddi</td>
+                                                <td>Executive Member</td>
+                                                <td>+91 8904646511</td>
+                                                
+                                            </tr>
+										</tbody>
+									</table>
+								</div>
+                                
+                                
+                                <div class="panel panel-info">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title"><strong>List of SSA Members</strong></h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <div class="table-responsive">
+                                            <table ng-init="reverse = true" class="table table-bordered table-hover">
+                                                
+                                                <tbody>
+                                                    <tr class="active">
+                                                        <th>Si. Number</th>
+                                                        <th>Name</th>
+                                                        <th>E-Mail</th>
+                                                        <th>Contact No.</th>
+                                                        
+                                                    </tr>
+                                                    
+                                                </tbody>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Mr. Bheemalinga M</td>
+                                                        <td>bheemalinga@gmail.com</td>
+                                                        <td>+91 9036748044</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>Mr. Veeranna M G</td>
+                                                        <td>vgomadi@gmail.com</td>
+                                                        <td>+91 9964165414</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>Mr. K V Bharath</td>
+                                                        <td>kvbhararth21@gmail.com</td>
+                                                        <td>+91 9686690227</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>Mr. Mohan Choukimath</td>
+                                                        <td>mohan.choukimath@yahoo.com</td>
+                                                        <td>+91 9964024979</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td>Mr. Siddesh G U</td>
+                                                        <td>gowdasiddesh@gmail.com</td>
+                                                        <td>+91 8722224686</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>6</td>
+                                                        <td>Mr. Ravichandra R</td>
+                                                        <td>ravichandra.R1984@gmail.com</td>
+                                                        <td>+91 9741023589</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>7</td>
+                                                        <td>Mr. Basavaraja R Balagar</td>
+                                                        <td>bgbasavaraj@gmail.com</td>
+                                                        <td>+91 9964927245</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>8</td>
+                                                        <td>Mr. Shanmukh G B</td>
+                                                        <td>shanmukh.gb@gmail.com</td>
+                                                        <td>+91 9538764353</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>9</td>
+                                                        <td>Mr. Satisha C R</td>
+                                                        <td>satipraju@gmail.com</td>
+                                                        <td>+91 9743116590</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>10</td>
+                                                        <td>Mr. Vinayak Hanagandi</td>
+                                                        <td>hanagandi.vinayak@gmail.com</td>
+                                                        <td>+91 9844511586</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>11</td>
+                                                        <td>Mr. Hemesh H H</td>
+                                                        <td>hemesh.pes@gmail.com</td>
+                                                        <td>+91 9916660393</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>12</td>
+                                                        <td>Mr. Gurumallesh H S</td>
+                                                        <td>guru16.2008@gmail.com</td>
+                                                        <td>+91 9743092176</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>13</td>
+                                                        <td>Mr. Vijay Kumar D P</td>
+                                                        <td>vijayadp17@gmail.com</td>
+                                                        <td>+91 9008239008</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>14</td>
+                                                        <td>Mr. Guruprasad L P</td>
+                                                        <td>guruprasad6510@gmail.com</td>
+                                                        <td>+91 9738738094/9740288651</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>15</td>
+                                                        <td>Mr. Murulesh B H</td>
+                                                        <td>muruleshdsi@gmail.com</td>
+                                                        <td>+91 9900707609</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>16</td>
+                                                        <td>Mr. Praveena kumar M</td>
+                                                        <td>pravi.pavi@gmail.com</td>
+                                                        <td>+91 9535502243</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>17</td>
+                                                        <td>Mr. Basavaraj Kokakonur</td>
+                                                        <td>rajkokatanur@gmail.com</td>
+                                                        <td>+91 9538681772</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>18</td>
+                                                        <td>Mr. Pradeep Kumar K</td>
+                                                        <td>pradeepkumarkavital@gmail.com</td>
+                                                        <td>+91 9945358359</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>19</td>
+                                                        <td>Mr. K Channabasavana gouda</td>
+                                                        <td>channus_2006@rediffmail.com</td>
+                                                        <td>+91 9663975751</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>20</td>
+                                                        <td>Mr. Manjunath Swamy Heremath</td>
+                                                        <td>manjunathmca195@gmail.com</td>
+                                                        <td>+91 9964072740</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>21</td>
+                                                        <td>Mr. Avinash H</td>
+                                                        <td>avinashh1990@gmail.com</td>
+                                                        <td>+91 8123452137</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>22</td>
+                                                        <td>Mr. Umesh Budni</td>
+                                                        <td>umeshmbudni@gmail.com</td>
+                                                        <td>+91 9964390659</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>23</td>
+                                                        <td>Mr. Basavaraj Mallannavara</td>
+                                                        <td>basavaraajsm@gmail.com</td>
+                                                        <td>+91 9528292322</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>24</td>
+                                                        <td>Mr. Satisha B M</td>
+                                                        <td>satisha.bms@gmail.com</td>
+                                                        <td>+91 9538918107</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>25</td>
+                                                        <td>Mr. Nagaraj Vastrad</td>
+                                                        <td>nagarajvastrad@gmail.com</td>
+                                                        <td>+91 9945858265</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>26</td>
+                                                        <td>Mr. Nanjaraj M P</td>
+                                                        <td>nanda.p.belur@gmail.com</td>
+                                                        <td>+91 9964941694</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>27</td>
+                                                        <td>Mr. Shanmukh patel C G</td>
+                                                        <td>shanmukpatel@gmail.com</td>
+                                                        <td>+91 9141366458/8197791312</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>28</td>
+                                                        <td>Mr. Shivprasad K H</td>
+                                                        <td>shiv.kh1990@gmail.com</td>
+                                                        <td>+91 9008001881</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>29</td>
+                                                        <td>Mr. Santhosh S Aladakatti</td>
+                                                        <td>sasantu6@gmail.com</td>
+                                                        <td>+91 9738385347</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>30</td>
+                                                        <td>Mr. Sagar C Ital</td>
+                                                        <td>ssagar.ci@gmail.com</td>
+                                                        <td>+91 9880174009</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>31</td>
+                                                        <td>Mr. Gurubasavaraj S S M</td>
+                                                        <td>gurubasavarajassm25@gmail.com</td>
+                                                        <td>+91 9538539069</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>32</td>
+                                                        <td>Mr. Vidyasagar patil</td>
+                                                        <td>patil.vidyagar@rocketmail.com</td>
+                                                        <td>-</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>33</td>
+                                                        <td>Mr. Ravish J R</td>
+                                                        <td>raveesh_95@yahoo.com</td>
+                                                        <td>+91 9008231922</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>34</td>
+                                                        <td>Mr. Kiran Kumar Talikoti</td>
+                                                        <td>kiranbnm@gmail.com</td>
+                                                        <td>+91 9663779032</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>35</td>
+                                                        <td>Mr. Yoganand T S</td>
+                                                        <td>yogshivakumar@gmail.com</td>
+                                                        <td>+91 9972701783</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>36</td>
+                                                        <td>Mr. Shridhar Kangonda</td>
+                                                        <td>shridharkanagond@gmail.com</td>
+                                                        <td>+91 9663361108</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>37</td>
+                                                        <td>Mr. Dhanraj Durge</td>
+                                                        <td>dhanrajsd@gmail.com</td>
+                                                        <td>+91 8970777842</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>38</td>
+                                                        <td>Mr. Vinay K Y</td>
+                                                        <td>vinayyk@archarya.ac.in</td>
+                                                        <td>+91 9964961415</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>39</td>
+                                                        <td>Mr. Chidanand R M</td>
+                                                        <td>chidanand.rmc@gmail.com</td>
+                                                        <td>+91 9964922699</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>40</td>
+                                                        <td>Mr. Shivananda G mudalagi</td>
+                                                        <td>gurugangatanay@gmail.com</td>
+                                                        <td>+91 9964502700</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>41</td>
+                                                        <td>Mr. Nagabhushanayya Pavagada Matha</td>
+                                                        <td>-</td>
+                                                        <td>+91 9880793818</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>42</td>
+                                                        <td>Mr. Dariyappa Bevinagidad</td>
+                                                        <td>dariyappa@gmail.com</td>
+                                                        <td>+91 8904366549</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>43</td>
+                                                        <td>Mr. Lingaraj Patil</td>
+                                                        <td>lingarajpatil007@gmail.com</td>
+                                                        <td>+91 9740533409</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>44</td>
+                                                        <td>Mr. Mohan S</td>
+                                                        <td>mohan.shrimatha@gmail.com</td>
+                                                        <td>+91 9611750114</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>45</td>
+                                                        <td>Mr. Shivakumar M P</td>
+                                                        <td>shivkumarmp7@gmail.com</td>
+                                                        <td>+91 9620688966</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>46</td>
+                                                        <td>Mr. Mahesh P Patil</td>
+                                                        <td>maheshpatilnagoli@gmail.com</td>
+                                                        <td>+91 9164057873</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>47</td>
+                                                        <td>Mr. Sureshgouda A</td>
+                                                        <td>aldalsuresh@gmail.com</td>
+                                                        <td>+91 961123373</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>48</td>
+                                                        <td>Mr. Veerbhadra P G</td>
+                                                        <td>pg.veeru1@gmail.com</td>
+                                                        <td>+91 998626639</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>49</td>
+                                                        <td>Mr. Shivaprasad S</td>
+                                                        <td>shivaprasad.ca@gmail.com</td>
+                                                        <td>+91 9483048398</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>50</td>
+                                                        <td>Mr. Naveen T R</td>
+                                                        <td>naveenatr@gmail.com</td>
+                                                        <td>+91 9880228394</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>51</td>
+                                                        <td>Mr. Venkatesh M</td>
+                                                        <td>venkateshmavinatop@gmail.com</td>
+                                                        <td>+91 9739784776</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>52</td>
+                                                        <td>Mr. Harish T J</td>
+                                                        <td>jnvharish@gmail.com</td>
+                                                        <td>+91 7259729939</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>53</td>
+                                                        <td>Mr. Ramesh N K</td>
+                                                        <td>rameshranhige@gmail.com</td>
+                                                        <td>+91 9945533329</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>54</td>
+                                                        <td>Mr. Siddaram Kore</td>
+                                                        <td>siddaramkore@gmail.com</td>
+                                                        <td>+91 9449994777</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>55</td>
+                                                        <td>Mr. Chandrashekhar M</td>
+                                                        <td>chanduminugu@gmail.com</td>
+                                                        <td>+91 9741552827</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>56</td>
+                                                        <td>Mr. Shashidhar S</td>
+                                                        <td>shashidhar.uvce@gmail.com</td>
+                                                        <td>+91 9742127773</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>57</td>
+                                                        <td>Mr. Praveen P</td>
+                                                        <td>gopipraveen92@gmail.com</td>
+                                                        <td>+91 9590859143</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>58</td>
+                                                        <td>Mr. Lohith B J</td>
+                                                        <td>lohithbj1991@gmail.com</td>
+                                                        <td>+91 8892098117</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>59</td>
+                                                        <td>Mr. Bharmoji Hudedar</td>
+                                                        <td>barmojh@gmail.com</td>
+                                                        <td>+91 7829518335</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>60</td>
+                                                        <td>Mr. Sunilkumar Hancinmani</td>
+                                                        <td>sunilhanchinamani@gmail.com</td>
+                                                        <td>+91 9844835088</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>61</td>
+                                                        <td>Mr. Vijaykumar H P</td>
+                                                        <td>vijayakumara.hp@gmail.com</td>
+                                                        <td>+91 9632890854</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>62</td>
+                                                        <td>Mr. Sachin R K</td>
+                                                        <td>rksachinrk@gmail.com</td>
+                                                        <td>+91 7795733471</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>63</td>
+                                                        <td>Mr. Sunil S</td>
+                                                        <td>ssunilclk@gmail.com</td>
+                                                        <td>+91 9738715797</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>64</td>
+                                                        <td>Mr. Vinayaka N</td>
+                                                        <td>vinayakanktr@gmail.com</td>
+                                                        <td>+91 9739771845</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>65</td>
+                                                        <td>Mr. Shivraj N H</td>
+                                                        <td>shivrajbnm@gmail.com</td>
+                                                        <td>+91 9845071656</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>66</td>
+                                                        <td>Mr. Santosh Nimbale</td>
+                                                        <td>santosh.nimbale.1@gmail.com</td>
+                                                        <td>+91 9019040898</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
+                                <div class="panel panel-info">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title"><strong>Accomplishments by Senior Students Association (As on Oct 20th, 2015)</strong></h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <div class="table-responsive">
+                                            <table ng-init="reverse = true" class="table table-bordered table-hover">
+                                                
+                                                <tbody>
+                                                    <tr class="active">
+                                                        <th>Si. Number</th>
+                                                        <th>Activity/Accomplishments</th>
+                                                        <th>Date of accomplishment</th>
+                                                        <th>Sponsor</th>
+                                                        
+                                                    </tr>
+                                                    
+                                                </tbody>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Installation of Water purifiers in each floor of the hostel</td>
+                                                        <td>Dec 04th, 2011</td>
+                                                        <td>SSA</td>
+                                                        
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>Supply of Kannada and English daily newspapers to hostel students</td>
+                                                        <td>Started from Jan 2012</td>
+                                                        <td>SSA</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>Preparatory meeting  for formation of Senior Students Association</td>
+                                                        <td>Feb 17th, 2013</td>
+                                                        <td>SSA</td>
+                                                        
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>Developed and hosted hostel website – www.kppchostel.org</td>
+                                                        <td>Feb 17th, 2013</td>
+                                                        <td>SSA</td>
+                                                        
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td>Official registration of Senior Students Association(SSA)</td>
+                                                        <td>Apr 05th, 2013</td>
+                                                        <td>SSA</td>
+                                                        
+                                                    </tr>
+                                                    <tr>
+                                                        <td>6</td>
+                                                        <td>Inauguration of Senior Students Association (SSA)</td>
+                                                        <td>May 04th, 2013</td>
+                                                        <td>SSA</td>
+                                                        
+                                                    </tr>
+                                                    <tr>
+                                                        <td>7</td>
+                                                        <td>Presented “Sanjeevappa Memorial Scholarship-2012-13” to most talented student of the year</td>
+                                                        <td>May 04th, 2013</td>
+                                                        <td>SSA</td>
+                                                        
+                                                    </tr>
+                                                    <tr>
+                                                        <td>8</td>
+                                                        <td>Donation of study chairs to all students</td>
+                                                        <td>May 04th, 2013</td>
+                                                        <td>SSA</td>
+                                                        
+                                                    </tr>
+                                                    <tr>
+                                                        <td>9</td>
+                                                        <td>SSA met Mr. Narayana Gambhir and Dr. Neeraj Patil to submit various development needs for hostel</td>
+                                                        <td>Aug 25th, 2013</td>
+                                                        <td>-NA-</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>10</td>
+                                                        <td>Mr. Narayana Gambhir visits KPPC hostel and verified the various infrastructure needs.</td>
+                                                        <td>Aug 26th, 2013</td>
+                                                        <td>-NA-</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>11</td>
+                                                        <td>Donation of text books (for odd semester )to all students</td>
+                                                        <td>Sept 15th, 2013</td>
+                                                        <td>SSA</td>
+                                                        
+                                                    </tr>
+                                                    <tr>
+                                                        <td>12</td>
+                                                        <td>Sponsored bed-bugs pesticide solution to hostel building</td>
+                                                        <td>Sept 21st, 2013</td>
+                                                        <td>SSA</td>
+                                                        
+                                                    </tr>
+                                                    <tr>
+                                                        <td>13</td>
+                                                        <td>Formation of E and C (Educational and Cultural) wing by SSA</td>
+                                                        <td>Sept 29th, 2013</td>
+                                                        <td>-NA-</td>
+                                                        
+                                                    </tr>
+                                                    <tr>
+                                                        <td>14</td>
+                                                        <td>E and C wing of SSA conducts seminar/coaching classes to all hostel students</td>
+                                                        <td>Every possible weekends</td>
+                                                        <td>SSA</td>
+                                                        
+                                                    </tr>
+                                                    <tr>
+                                                        <td>15</td>
+                                                        <td>SSA met Sri. Ananthakumar (MP, Bangalore south) and submitted the request for various infrastructure developments – Solar, Library racks, Bunker beds, Steam cooking etc)</td>
+                                                        <td>Oct 06th, 2013</td>
+                                                        <td>-NA-</td>
+                                                        
+                                                    </tr>
+                                                    <tr>
+                                                        <td>16</td>
+                                                        <td>Bhoomipooje for “Rain water harvesting” at KPPC hostel</td>
+                                                        <td>Oct 30th, 2013</td>
+                                                        <td>Mr. Ravindra (Rtd. Engineer)</td>
+                                                        
+                                                    </tr>
+                                                    <tr>
+                                                        <td>17</td>
+                                                        <td>SSA collects and submits all Quotations to DC office for Solar, Bunker beds, Steam cooking, library racks, toilet construction etc.</td>
+                                                        <td>Nov 16th,2013</td>
+                                                        <td>-NA-</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>18</td>
+                                                        <td>Completion of Rain water Harvesting at KPPC hostel building</td>
+                                                        <td>Dec 07th, 2013</td>
+                                                        <td>Mr. Ravindra (Rtd. Engineer)</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>19</td>
+                                                        <td>District Commissioner approves development works. Issues Official Memorandum (OM)</td>
+                                                        <td>Feb 17th, 2014</td>
+                                                        <td>-NA-</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>20</td>
+                                                        <td>Sri. Ananthakumar (MP) launches development works at KPPC hostel</td>
+                                                        <td>Feb 24th, 2014</td>
+                                                        <td>MPLAD fund of Sri. Ananthakumar</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>21</td>
+                                                        <td>Delivery of Bunker beds and Library Almeras to KPPC hostel</td>
+                                                        <td>Mar 17th, 2014</td>
+                                                        <td>-NA-</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>22</td>
+                                                        <td>Installation of Solar System at KPPC hostel</td>
+                                                        <td>Mar 18th, 2014</td>
+                                                        <td>-NA-</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>23</td>
+                                                        <td>Supply of “Basava Kirana” monthly magazine to KPPC hostel for students.</td>
+                                                        <td>Mar 28th, 2014</td>
+                                                        <td>Shivakumar G(President, SSA)</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>24</td>
+                                                        <td>Installation of Steam Cooking facility at KPPC hostel</td>
+                                                        <td>Apr 04th, 2014</td>
+                                                        <td>-NA-</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>25</td>
+                                                        <td>Construction of Bathrooms and Toilets</td>
+                                                        <td>Apr 09th, 2014</td>
+                                                        <td>-NA-</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>26</td>
+                                                        <td>Donation of text books (for EVEN semester )to all students</td>
+                                                        <td>Apr 13th, 2014</td>
+                                                        <td>Basavaraj Mallannanavar(Member,SSA)</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>27</td>
+                                                        <td>E and C wing of SSA, tracks students performance in odd and even semesters and gives appropriate guidance on improvements</td>
+                                                        <td>Jul 31st, 2014</td>
+                                                        <td>SSA</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>28</td>
+                                                        <td>Distribution of “Students ID card” to all students of the hostel for academic year – 2014-15</td>
+                                                        <td>Aug 20th, 2014</td>
+                                                        <td>SSA</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>29</td>
+                                                        <td>SSA formulates a set of “Rules and Regulations” and displays on each floor. All students are advised to adhere with the formulated disciplines.</td>
+                                                        <td>Aug 20th, 2014</td>
+                                                        <td>SSA</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>30</td>
+                                                        <td>SSA meets and invites following dignitaries for 159th birthday celebration of Diwan Sir KP Puttannachetty.
+                                                            - Rani Satish, M. Krishnappa, G.R Shanmugappa, Priyakrishna, Belimutt swamiji.</td>
+                                                        <td>Apr 13th, 2015</td>
+                                                        <td>SSA and Hostel Management</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>31</td>
+                                                        <td>SSA in cooperation with Hostel Management celebrates 159th Birthday of Diwan Sir KP Puttannachetty @ Townhall, Bangalore.</td>
+                                                        <td>Apr 29th, 2015</td>
+                                                        <td>SSA and Hostel Management</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>32</td>
+                                                        <td>SSA sponsored for
+                                                            - Invitation Card Printing,
+                                                            - Momentous and Certificates for Intra hostel Sports and Cultural activities - Spoorthi-2015 events
+                                                            - “Sanjeevappa Memorial Scholarship-2014-15” to most talented student of the year</td>
+                                                        <td>Apr 29th, 2015</td>
+                                                        <td>SSA</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>33</td>
+                                                        <td>SSA donates Cash prizes to two humble, talented, sincere students</td>
+                                                        <td>Apr 29th, 2015</td>
+                                                        <td>Shrikanth Hallikhed, Executive Member,SSA</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>34</td>
+                                                        <td>SSA collected and reviewed the odd and even semester results, as well as attendance of hostel students, and guided them for further improvements.</td>
+                                                        <td>Aug 02nd, 2015</td>
+                                                        <td>SSA</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>35</td>
+                                                        <td>SSA organized Farewell function to outgoing students of 2014-15 batch and felicitated them.</td>
+                                                        <td>Aug 09th, 2015</td>
+                                                        <td>SSA</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>36</td>
+                                                        <td>Distribution of “Student ID card” to all students of the hostel</td>
+                                                        <td>Oct 19th, 2015</td>
+                                                        <td>SSA</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>37</td>
+                                                        <td>Developed and re-hosted the website www.kppchostel.org with new and attractive GUI (with 5 years subscription)</td>
+                                                        <td>Oct 20th, 2015</td>
+                                                        <td>Website Team,SSA</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+								<address>
+									<h5 class="text-info"><strong>Contact US @ :</strong></h5>
+									<strong>Senior Student Association (R.)</strong>
+									<br>
+									#32-9/10 Bull Temple Road
+									<br>
+									Basavanagudi, Bangalore - 560004
+									<br>
+									<abbr>Phone number: </abbr>(080) 26670922
+									<br>
+								</address>
+
+								<address>
+									<strong class="text-info">E-Mail Us @ : ssa@kppchostel.org</strong>
+									<br>
+									<a href="mailto:ssa@kppchostel.org?">E-mail:ssa@kppchostel.org</a>
+								</address>
+							</div>
+						</div>
+					</div>
+                    
+                    <div class="list-student" style="display:none">
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><strong>List of Students</strong></h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="table-responsive">
+                                    <table ng-init="reverse = true" class="table table-bordered table-hover">
+                                        <!-- <thead></thead>
+                                         <caption class="text-left text-info">
+                                         <strong>Executive Commettee</strong>
+                                         </caption> -->
+                                        <tbody>
+                                            <tr class="active">
+                                                <th>Si. Number</th>
+                                                <th>Name</th>
+                                                <th>Presently Studying</th>
+                                                <th>Institution</th>
+                                                
+                                            </tr>
+                                            
+                                        </tbody>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Sachin M</td>
+                                                <td>1st Year BE</td>
+                                                <td>BMSCE</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>Thejas M P</td>
+                                                <td>1st Year BE</td>
+                                                <td>Dr. AIT</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>Vijay Kumar</td>
+                                                <td>1st Year BE</td>
+                                                <td>BMSCE</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>4</td>
+                                                <td>Murugendraradya</td>
+                                                <td>1st Year BE</td>
+                                                <td>BIT</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>5</td>
+                                                <td>Prem Kumar</td>
+                                                <td>1st Year BE</td>
+                                                <td>BMSCE</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>6</td>
+                                                <td>Nandish</td>
+                                                <td>1st Year BE</td>
+                                                <td>BMSCE</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>7</td>
+                                                <td>Vjayananda</td>
+                                                <td>1st Year BE</td>
+                                                <td>RVCE</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>8</td>
+                                                <td>Vidyasagar</td>
+                                                <td>1st Year BE</td>
+                                                <td>UVCE</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>9</td>
+                                                <td>H Kumar</td>
+                                                <td>1st Year BE</td>
+                                                <td>Dr. AIT</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>10</td>
+                                                <td>Chetan</td>
+                                                <td>1st Year BE</td>
+                                                <td>DSCE</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>11</td>
+                                                <td>J Guru Prasanna</td>
+                                                <td>1st Year BE</td>
+                                                <td>OXCE</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>12</td>
+                                                <td>Ravi Kumar Sonna</td>
+                                                <td>1st Year BE</td>
+                                                <td>BMSCE</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>13</td>
+                                                <td>Ravikiran</td>
+                                                <td>1st Year BE</td>
+                                                <td>JSSATE</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>14</td>
+                                                <td>Sanjay Nirveni</td>
+                                                <td>1st Year BE</td>
+                                                <td>DSCE</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>15</td>
+                                                <td>Shashidar</td>
+                                                <td>1st Year BE</td>
+                                                <td>BMSCE</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>16</td>
+                                                <td>Basavaraj</td>
+                                                <td>2nd Year BE</td>
+                                                <td>BMSCE</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>17</td>
+                                                <td>Thammana Gowda</td>
+                                                <td>2nd Year BE</td>
+                                                <td>BMSCE</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>18</td>
+                                                <td>Channappa</td>
+                                                <td>2nd Year BE</td>
+                                                <td>BMSCE</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>19</td>
+                                                <td>Shivanand Angadi</td>
+                                                <td>2nd Year BE</td>
+                                                <td>PESIT</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>20</td>
+                                                <td>Manjunath K N</td>
+                                                <td>2nd Year BE</td>
+                                                <td>BIT</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>21</td>
+                                                <td>Shivalingappa</td>
+                                                <td>2nd Year BE</td>
+                                                <td>PESIT</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>22</td>
+                                                <td>Siddesh R S</td>
+                                                <td>2nd Year BE</td>
+                                                <td>DSCE</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>23</td>
+                                                <td>Omkar Patil</td>
+                                                <td>2nd Year BE</td>
+                                                <td>DSCE</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>24</td>
+                                                <td>Bhaskar K C</td>
+                                                <td>2nd Year BE</td>
+                                                <td>BIT</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>25</td>
+                                                <td>Ranganatha B R</td>
+                                                <td>2nd Year BE</td>
+                                                <td>BMSCE</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>26</td>
+                                                <td>Shivakumar</td>
+                                                <td>2nd Year BE</td>
+                                                <td>BMSCE</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>27</td>
+                                                <td>Pradeep Kumar</td>
+                                                <td>2nd Year BE</td>
+                                                <td>BIT</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>28</td>
+                                                <td>Shylesh</td>
+                                                <td>2nd Year BE</td>
+                                                <td>Global Academy</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>29</td>
+                                                <td>V Praveen</td>
+                                                <td>1st Year Diploma</td>
+                                                <td>A.P.S Polytechnic</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>30</td>
+                                                <td>Kallesh K P</td>
+                                                <td>1st Year MSc</td>
+                                                <td>Jain College</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>31</td>
+                                                <td>Avinash D N</td>
+                                                <td>2nd Year M.Tech</td>
+                                                <td>NMIT</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>32</td>
+                                                <td>Amaresh</td>
+                                                <td>1st Year MBA</td>
+                                                <td>Nandi IT</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>33</td>
+                                                <td>Pradeep Allipur</td>
+                                                <td>2nd Year MCA </td>
+                                                <td>DSCE</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>34</td>
+                                                <td>Chetankumar D.M</td>
+                                                <td>1st Year B.Pharm</td>
+                                                <td>-</td>
+                                                
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+
+					<div class="rules-regulation" style="display:none">
+						<div class="panel panel-info">
+							<div class="panel-heading">
+								<h3 class="panel-title"><strong>Rules and Regulations</strong></h3>
+							</div>
+							<div class="panel-body">
+								
+									<!-- <caption class="text-left text-info">
+									<strong>Rules and Regulations</strong>
+									</caption> -->
+									<ol>
+										<h5>
+										<li>
+											All students are expected to wake up early in the morning, get refreshed and compulsorily attend Prayer @7:00AM in Morning & @7:30PM in evening. Dress code for the prayer is - white panche & white shirt. Attendance will be taken and then food will be served. After 9:00PM Gates Closed.
+										</li></h5>
+										<h5>
+										<li>
+											Students who wish to use their personal laptop/desktop in hostel should inform the management in advance and get the approval from Secretary. However, home theaters, loud speakers are strictly not allowed as it can cause disturbances to other students and also to neighbor residents.
+										</li></h5>
+										<h5>
+										<li>
+											KPPC Library is equipped with most recent books for all academic studies. Students are most welcome to utilize library books and daily news papers free of cost. Contact Library Admin (student) to get the books. Also, it is advised that news papers should be read only in library premises and should not be carried to your rooms. If any such incidents found, entire month news paper bill has to be borne by that student.
+										</li></h5>
+										<h5>
+										<li>
+											Each student taking admission should buy their own lunch plate, water bottle/glass, plastic bucket, jug, towel, pillow, bed etc for their personal use.
+										</li></h5>
+										<h5>
+										<li>
+											Common utilities such as water purifier, solar, bunker beds, study chairs should be used responsibly. Any damage to these devices/equipments has to be borne by the respective student who damages it.
+										</li></h5>
+										<h5>
+										<li>
+											Food serving in the dining hall should be done by two students every day based on their name in the attendance register. If any student is absent/on leave, he should serve the food the next day when he reports back to hostel.
+										</li></h5>
+										<h5>
+										<li>
+											Students are advised to keep their room clean all the time. Management /SSA/warden would visit randomly any time. Lunch carry bags or any other garbage should not be put in any floor. Which will creates bad smell around, and students will get disturbance on their studies.
+										</li></h5>
+										<h5>
+										<li>
+											Weekly once (on Sunday) each floor should be cleaned by the students staying in the respective floors. Floor in-charge (student) will assign this to all students in round-robin fashion including him.
+										</li></h5>
+										<h5>
+										<li>
+											Bathrooms and toilets should be maintained clean. Do not throw shampoo, soap, toothpaste covers in the bath rooms.
+										</li></h5>
+										<h5>
+										<li>
+											For easy administration of the day to day maintenance, students will be assigned few responsibilities by the warden. You need to obey it and carry out your responsibility carefully.
+										</li></h5>
+										<h5>
+										<li>
+											Students are advised to have good interaction with Senior Students Association (SSA) which is carrying out lot of initiatives/activities for the development of hostel students and infrastructure. SSA and hostel management closely monitors educational performance of each student regularly. As a STUDENT, STUDY is your first preference.
+										</li></h5>
+										<h5>
+										<li>
+											Smoking, drinking and ragging is STRICTLY prohibited. If any student involves in any of these activities and gets caught, they will be sent-out of the hostel immediately without any notice and excuses.
+										</li></h5>
+										<h5>
+										<li>
+											For any other questions/clarifications/help/guidance, students can contact hostel management or Senior Students Association.
+										</li></h5>
+										<h5>
+										<li>
+											Minimum 65% required in the previous year results, to get Admission for Next Academic Year.
+										</li></h5>
+										<h5>
+										<li>
+											Unnecessary mistakes & shouting   is Strictly Prohibited.
+										</li></h5>
+										<h5>
+										<li>
+											Students should not absent/leave without intimation to management.
+										</li></h5>
+									</ol>
+									<blockquote>
+										All students should obey and follow above rules strictly. If anybody violates, other students can intimate this to warden/management, and Strict/appropriate action will be taken against student violate the rules.
+
+										ALL THE BEST TO ALL STUDENTS..!!!
+									</blockquote>
+							</div>
+						</div>
+					</div>
+					<div class="history" style="display:none">
+						<div class="panel panel-info">
+							<div class="panel-heading">
+								<h3 class="panel-title"><strong>History</strong></h3>
+							</div>
+							<div class="panel-body">
+								<div class="blog-post" >
+									<h4 class="blog-post-title">Diwan Sir K P Puttanna Chetty</h4>
+									<div class="media">
+									      <div class="media-left">
+									        <a href="#">
+									        	<img class="media-object Responsive image" src="img/kpp.jpg"/>
+									        </a>
+									      </div>
+									      <div class="media-body">
+									        <p>Diwan Bahadur Sir Krishnarajapur Palligonde Puttanna Chetty CIE (1856–1938) was an administrator, bureaucrat and philanthropist who served as the first President of the Bangalore municipality.</p>
+									      	<h5 class="media-heading" id="top-aligned-media"><strong>Early life and education</strong></h5>
+									     	<p>
+									     		Puttanna Chetty was born in 1856 in a <a href="https://en.wikipedia.org/wiki/Lingayatism" target="_blank">Lingayat</a> family of Bangalore. He was educated at the Central College, Bangalore and entered the Mysore civil service in 1875.
+									     	</p>
+									     	<h5 class="media-heading" id="top-aligned-media"><strong>Career</strong></h5>
+									     	<p>
+									     		Chetty served as a traffic manager in the Mysore state railways from 1884 to 1898 and as Deputy Commissioner from 1898 to 1906. From 1906 to 1912, he also served as a member of the Bangalore City Council. In 1913, Puttanna Chetty was elected President of the Bangalore municipality and he served till 1919, inaugurating the Victoria Hospital and making many public donations during his tenure.
+
+												Puttanna Chetty was elected to the Mysore Legislative Council in 1925. Chetty served in various appointments during his life – as Chairman of the Bank of Mysore and Central Co-Operative Bank, Bangalore, Chairman of the Sri Krishnarajendra Mills and fellow of the Mysore University. Puttanna Chetty served as President at <a href="https://en.wikipedia.org/wiki/Gubbi_Thotadappa" target="_blank">Rao Bahadhur Dharmapravartha Gubbi Thotadappa Charities</a> from 1910 to 1938.
+									     	</p><br />
+									     	<div class="media-left pull-left">
+										        <a href="#">
+										        	<img class="media-object Responsive image" src="img/town-hall.jpg"/>
+										        </a>
+									      	 </div>
+									      	 <h5 class="media-heading" id="top-aligned-media"><strong>Bangalore Town Hall</strong></h5>
+									     	<p>
+									     		Bangalore Town Hall is a neoclassical municipal building in Bangalore, India. The town hall is named after the philanthropist and former president of Bangalore city municipality, Sir K.P Puttanna Chetty.
+
+												The foundation stone for the building was laid by the then Maharaja of Mysore, <a href="https://en.wikipedia.org/wiki/Krishna_Raja_Wadiyar_IV" target="_blank">Krishna Rajendra Wodeyar</a> on March 6, 1933. The building was completed on September 11, 1935. It was inaugurated by crown prince Kanteerava Narasimharaja Wadiyar. Built by Sir Mirza Ismail, the building features a flight of steps leading to the entrance porch resting on Tuscan columns with identical columns extending on either sides. Financial assistance was provided by Kanteerava Wodeyar.
+												
+												Due to improper acoustics, a renovation was proposed estimated at Rs 1,000,000 in 1976. Postponements delayed renovations till March 1990, when the building was finally closed for renovation. The cost then was 6.5 million rupees (approximately US$371,400).
+												
+												The auditorium has two floors with a previous total capacity of 1,038 seats. The seating capacity has been reduced to 810 following the renovations.
+									     	</p>
+									     	<h5 class="media-heading" id="top-aligned-media"><strong>Death</strong></h5>
+									     	<p>
+									     		Puttanna Chetty died in 1938 at the age of eighty two.
+									     	</p>
+									     	<h5 class="media-heading" id="top-aligned-media"><strong>Honours</strong></h5>
+									     	<p>
+									     		Puttanna Chetty was made a Diwan Bahadur in 1911. In 1917, he was made a Companion of the Order of the Indian Empire and was subsequently made a Knight Bachelor in 1925. He was also awarded the 1911 Durbar Medal and the Gold Kaiser-i-Hind Medal in 1914.
+									     	</p>
+									      </div>
+									 </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="contact_us" style="display:none">
+						<div class="panel panel-info">
+							<div class="panel-heading">
+								<h3 class="panel-title"><strong>Contact Us</strong></h3>
+							</div>
+							<div class="panel-body">
+                            <div class="row">
+                            <div class="col-sm-5">
+								<address>
+									<strong>Diwan Sir K P Puttannachetty Veerashaiva Educational Charities</strong>
+									<br>
+									#32-9/10 Bull Temple Road
+									<br>
+									Basavanagudi, Bangalore - 560004
+									<br>
+									<abbr>Phone number: </abbr>(080) 26670922
+									<br>
+								</address>
+
+								<address>
+									<strong class="text-info">E-Mail Us @ : ssa@kppchostel.org</strong>
+									<br>
+									<a href="mailto:ssa@kppchostel.org">E-mail:ssa@kppchostel.org</a>
+								</address>
+							</div>
+                            <div class="col-sm-7">
+                            <div class="contacy-us-map-section">
+                            <div id="map-canvas"></div>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+						</div>
+					</div>
+				</div>
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+		<footer class="blog-footer">
+			<p>
+				Copyright 2015 &copy; KPPC. All rights reserved. Powered by <a href="#">K P Puttannachetty Hostel</a>
+			</p>
+			<p>
+				<a href="#">Back to top</a>
+			</p>
+		</footer>
+
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/custom.js"></script>
+		<script src="js/responsiveslides.min.js"></script>
+		<!-- <script src="../../assets/js/docs.min.js"></script> -->
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+	</body>
+</html>
